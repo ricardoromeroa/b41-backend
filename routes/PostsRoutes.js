@@ -3,8 +3,8 @@ const express = require('express');
 
 const router = express.Router();
 
-const { PostsController } = require('../validators');
-const { PostsValidator } = require('../controllers');
+const { PostsValidator } = require('../validators');
+const { PostsController } = require('../controllers');
 
 
 router.post('/users/:id/posts',
