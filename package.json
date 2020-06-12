@@ -1,0 +1,39 @@
+{
+  "name": "b41-backend",
+  "version": "0.0.1",
+  "description": "Backend siguiendo arquitectura MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=staging nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"**/*.js\"",
+    "lint-fix": "eslint \"**/*.js\" --fix"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "backend",
+    "mvc",
+    "learning",
+    "tutorial"
+  ],
+  "author": "Ricardo R.",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "celebrate": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lint": "^0.7.0",
+    "lint-fix": "^0.24.0",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
