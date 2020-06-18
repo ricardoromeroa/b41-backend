@@ -12,7 +12,7 @@ api.use(cors());
 
 api.get('/', (req, res) => res.json({ message: 'Hello DEV.F' }));
 
-api.use('api/v1', require('../routes'));
+api.use('/api/v1', require('../routes'));
 
 api.use(errors());
 
